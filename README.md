@@ -19,11 +19,17 @@
 
 物は試しで、
 ```
-python batch_exec.py task_list.txt 2
+python batch_exec.py task_list.txt 3
 ```
 を何プロセスか同時に実行してみてください。
 50個のタスクが重複なしで順番に実行されます。
 別のターミナルで実行する方が挙動がわかりやすいです。
+
+ただし、実際に使用する際には、&をつけて、
+```
+python batch_exec.py task_list.txt 3 &
+```
+を1つのターミナルで何度も実行するのがお薦めです。
 
 *****
 
