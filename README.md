@@ -33,5 +33,7 @@ python batch_exec.py task_list.txt 3 &
 
 *****
 
-元々はperlで書いたプログラムなのですが、ChatGPTにお願いして、python版を用意してもらいました。
+元々はperlで書いたプログラムなのですが、ChatGPTに力を借りてpython版を用意しました。
+さらに、GPU対応版です(pytorch使用)も用意しました。
+
 詳しい説明は各ディレクトリのREADMEを見てください。
